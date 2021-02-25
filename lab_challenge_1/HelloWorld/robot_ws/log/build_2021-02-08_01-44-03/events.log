@@ -1,0 +1,419 @@
+[0.000000] (-) TimerEvent: {}
+[0.001680] (turtlebot3_description_reduced_mesh) JobQueued: {'identifier': 'turtlebot3_description_reduced_mesh', 'dependencies': OrderedDict()}
+[0.001762] (hello_world_robot) JobQueued: {'identifier': 'hello_world_robot', 'dependencies': OrderedDict([('turtlebot3_description_reduced_mesh', '/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh')])}
+[0.001843] (turtlebot3_description_reduced_mesh) JobStarted: {'identifier': 'turtlebot3_description_reduced_mesh'}
+[0.099762] (-) TimerEvent: {}
+[0.140095] (turtlebot3_description_reduced_mesh) JobProgress: {'identifier': 'turtlebot3_description_reduced_mesh', 'progress': 'cmake'}
+[0.140860] (turtlebot3_description_reduced_mesh) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/environment/HelloWorld/robot_ws/src/deps/turtlebot3-description-reduced-mesh', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh'], 'cwd': '/home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh', 'env': OrderedDict([('HISTFILESIZE', '100000'), ('TMUX', '/tmp/tmux-1000/cloud92.2,2801,0'), ('MAIL', '/var/mail/ubuntu'), ('USER', 'ubuntu'), ('_system_version', '18.04'), ('SSH_CLIENT', '35.172.155.194 63540 22'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '4'), ('OLDPWD', '/home/ubuntu/environment/HelloWorld'), ('HOME', '/home/ubuntu'), ('PORT', '8080'), ('ISOUTPUTPANE', '0'), ('NVM_BIN', '/home/ubuntu/.nvm/versions/node/v8.17.0/bin'), ('NVM_NODEJS_ORG_MIRROR', 'https://nodejs.org/dist'), ('ROS_PYTHON_VERSION', '2'), ('C9_USER', 'vocstartsoft'), ('NVM_DIR', '/home/ubuntu/.nvm'), ('NVM_PATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/lib/node'), ('ROS_DISTRO', 'melodic'), ('HGUSER', 'vocstartsoft'), ('LOGNAME', 'ubuntu'), ('rvm_bin_path', '/usr/local/rvm/bin'), ('_', '/usr/local/bin/colcon'), ('RUBY_VERSION', 'ruby-2.4.1'), ('ROS_VERSION', '1'), ('C9_PORT', '8080'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('IRBRC', '/usr/local/rvm/rubies/ruby-2.4.1/.irbrc'), ('XDG_SESSION_ID', '5'), ('TERM', 'screen'), ('PATH', '/opt/ros/melodic/bin:/home/ubuntu/.nvm/versions/node/v8.17.0/bin:/usr/local/rvm/gems/ruby-2.4.1/bin:/usr/local/rvm/gems/ruby-2.4.1@global/bin:/usr/local/rvm/rubies/ruby-2.4.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/rvm/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin'), ('NVM_IOJS_ORG_MIRROR', 'https://iojs.org/dist'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MY_RUBY_HOME', '/usr/local/rvm/rubies/ruby-2.4.1'), ('LANG', 'C.UTF-8'), ('HISTSIZE', '100000'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('C9_HOSTNAME', '54.236.16.135'), ('NODE_PATH', '/home/ubuntu/.c9/node_modules'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('rvm_prefix', '/usr/local'), ('PROMPT_COMMAND', 'history -a;'), ('_system_type', 'Linux'), ('GEM_HOME', '/usr/local/rvm/gems/ruby-2.4.1'), ('C9_PID', 'c885df71b2374db4bf35e7e780cf14c6'), ('rvm_version', '1.29.3 (1.29.3)'), ('_system_arch', 'x86_64'), ('C9_PROJECT', 'lab_challenge_1'), ('PWD', '/home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh'), ('GEM_PATH', '/usr/local/rvm/gems/ruby-2.4.1:/usr/local/rvm/gems/ruby-2.4.1@global'), ('SSH_CONNECTION', '35.172.155.194 63540 172.31.62.39 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('IP', '127.0.0.1'), ('_system_name', 'Ubuntu'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('COLCON', '1'), ('rvm_path', '/usr/local/rvm'), ('TMUX_PANE', '%0'), ('MANPATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/share/man:/usr/local/rvm/rubies/ruby-2.4.1/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man:/usr/local/rvm/man'), ('EDITOR', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/melodic')]), 'shell': False}
+[0.200048] (-) TimerEvent: {}
+[0.300744] (-) TimerEvent: {}
+[0.401239] (-) TimerEvent: {}
+[0.501697] (-) TimerEvent: {}
+[0.602210] (-) TimerEvent: {}
+[0.702710] (-) TimerEvent: {}
+[0.803172] (-) TimerEvent: {}
+[0.903614] (-) TimerEvent: {}
+[1.004046] (-) TimerEvent: {}
+[1.104507] (-) TimerEvent: {}
+[1.204988] (-) TimerEvent: {}
+[1.305520] (-) TimerEvent: {}
+[1.405970] (-) TimerEvent: {}
+[1.506434] (-) TimerEvent: {}
+[1.606944] (-) TimerEvent: {}
+[1.707396] (-) TimerEvent: {}
+[1.807886] (-) TimerEvent: {}
+[1.908366] (-) TimerEvent: {}
+[2.008772] (-) TimerEvent: {}
+[2.109205] (-) TimerEvent: {}
+[2.209606] (-) TimerEvent: {}
+[2.309997] (-) TimerEvent: {}
+[2.410379] (-) TimerEvent: {}
+[2.510752] (-) TimerEvent: {}
+[2.611188] (-) TimerEvent: {}
+[2.711602] (-) TimerEvent: {}
+[2.812040] (-) TimerEvent: {}
+[2.912497] (-) TimerEvent: {}
+[3.012931] (-) TimerEvent: {}
+[3.113389] (-) TimerEvent: {}
+[3.213851] (-) TimerEvent: {}
+[3.314290] (-) TimerEvent: {}
+[3.414730] (-) TimerEvent: {}
+[3.515147] (-) TimerEvent: {}
+[3.615626] (-) TimerEvent: {}
+[3.716068] (-) TimerEvent: {}
+[3.816505] (-) TimerEvent: {}
+[3.916983] (-) TimerEvent: {}
+[4.017474] (-) TimerEvent: {}
+[4.117989] (-) TimerEvent: {}
+[4.218412] (-) TimerEvent: {}
+[4.318849] (-) TimerEvent: {}
+[4.419281] (-) TimerEvent: {}
+[4.519727] (-) TimerEvent: {}
+[4.620178] (-) TimerEvent: {}
+[4.720673] (-) TimerEvent: {}
+[4.821150] (-) TimerEvent: {}
+[4.921624] (-) TimerEvent: {}
+[5.022099] (-) TimerEvent: {}
+[5.122659] (-) TimerEvent: {}
+[5.223149] (-) TimerEvent: {}
+[5.323609] (-) TimerEvent: {}
+[5.424072] (-) TimerEvent: {}
+[5.524556] (-) TimerEvent: {}
+[5.625088] (-) TimerEvent: {}
+[5.725540] (-) TimerEvent: {}
+[5.825986] (-) TimerEvent: {}
+[5.926429] (-) TimerEvent: {}
+[6.026907] (-) TimerEvent: {}
+[6.127423] (-) TimerEvent: {}
+[6.227870] (-) TimerEvent: {}
+[6.328325] (-) TimerEvent: {}
+[6.428787] (-) TimerEvent: {}
+[6.529302] (-) TimerEvent: {}
+[6.629735] (-) TimerEvent: {}
+[6.730185] (-) TimerEvent: {}
+[6.830676] (-) TimerEvent: {}
+[6.931439] (-) TimerEvent: {}
+[7.031886] (-) TimerEvent: {}
+[7.132351] (-) TimerEvent: {}
+[7.232762] (-) TimerEvent: {}
+[7.333207] (-) TimerEvent: {}
+[7.433601] (-) TimerEvent: {}
+[7.534005] (-) TimerEvent: {}
+[7.634435] (-) TimerEvent: {}
+[7.734881] (-) TimerEvent: {}
+[7.835301] (-) TimerEvent: {}
+[7.935716] (-) TimerEvent: {}
+[8.036136] (-) TimerEvent: {}
+[8.136573] (-) TimerEvent: {}
+[8.142986] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[8.236750] (-) TimerEvent: {}
+[8.337229] (-) TimerEvent: {}
+[8.437677] (-) TimerEvent: {}
+[8.538089] (-) TimerEvent: {}
+[8.638497] (-) TimerEvent: {}
+[8.738941] (-) TimerEvent: {}
+[8.839378] (-) TimerEvent: {}
+[8.939845] (-) TimerEvent: {}
+[9.040291] (-) TimerEvent: {}
+[9.140788] (-) TimerEvent: {}
+[9.241266] (-) TimerEvent: {}
+[9.341653] (-) TimerEvent: {}
+[9.442011] (-) TimerEvent: {}
+[9.542382] (-) TimerEvent: {}
+[9.642741] (-) TimerEvent: {}
+[9.743127] (-) TimerEvent: {}
+[9.843553] (-) TimerEvent: {}
+[9.943958] (-) TimerEvent: {}
+[10.044331] (-) TimerEvent: {}
+[10.144716] (-) TimerEvent: {}
+[10.245108] (-) TimerEvent: {}
+[10.345567] (-) TimerEvent: {}
+[10.446022] (-) TimerEvent: {}
+[10.546431] (-) TimerEvent: {}
+[10.646835] (-) TimerEvent: {}
+[10.747236] (-) TimerEvent: {}
+[10.847642] (-) TimerEvent: {}
+[10.948092] (-) TimerEvent: {}
+[11.048542] (-) TimerEvent: {}
+[11.149055] (-) TimerEvent: {}
+[11.249514] (-) TimerEvent: {}
+[11.349952] (-) TimerEvent: {}
+[11.450351] (-) TimerEvent: {}
+[11.550741] (-) TimerEvent: {}
+[11.651101] (-) TimerEvent: {}
+[11.751571] (-) TimerEvent: {}
+[11.852028] (-) TimerEvent: {}
+[11.952481] (-) TimerEvent: {}
+[12.052907] (-) TimerEvent: {}
+[12.153422] (-) TimerEvent: {}
+[12.253876] (-) TimerEvent: {}
+[12.354320] (-) TimerEvent: {}
+[12.454760] (-) TimerEvent: {}
+[12.555500] (-) TimerEvent: {}
+[12.655917] (-) TimerEvent: {}
+[12.756325] (-) TimerEvent: {}
+[12.856761] (-) TimerEvent: {}
+[12.903411] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[12.914845] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[12.956903] (-) TimerEvent: {}
+[13.057332] (-) TimerEvent: {}
+[13.064127] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[13.065700] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[13.142197] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[13.153877] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[13.157543] (-) TimerEvent: {}
+[13.257934] (-) TimerEvent: {}
+[13.358338] (-) TimerEvent: {}
+[13.458821] (-) TimerEvent: {}
+[13.559619] (-) TimerEvent: {}
+[13.615265] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[13.623480] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[13.659820] (-) TimerEvent: {}
+[13.712345] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[13.713331] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[13.760015] (-) TimerEvent: {}
+[13.803657] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[13.814468] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[13.860202] (-) TimerEvent: {}
+[13.960733] (-) TimerEvent: {}
+[14.062177] (-) TimerEvent: {}
+[14.163037] (-) TimerEvent: {}
+[14.212178] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[14.218778] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Using CATKIN_DEVEL_PREFIX: /home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh/devel\n'}
+[14.219248] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Using CMAKE_PREFIX_PATH: /opt/ros/melodic\n'}
+[14.219628] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- This workspace overlays: /opt/ros/melodic\n'}
+[14.263197] (-) TimerEvent: {}
+[14.326067] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") \n'}
+[14.326526] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python2\n'}
+[14.326830] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Using Debian Python package layout\n'}
+[14.329715] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Using empy: /usr/bin/empy\n'}
+[14.363357] (-) TimerEvent: {}
+[14.463771] (-) TimerEvent: {}
+[14.524860] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Using CATKIN_ENABLE_TESTING: ON\n'}
+[14.525297] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Call enable_testing()\n'}
+[14.527738] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Using CATKIN_TEST_RESULTS_DIR: /home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh/test_results\n'}
+[14.563908] (-) TimerEvent: {}
+[14.664248] (-) TimerEvent: {}
+[14.735920] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b"-- Found gtest sources under '/usr/src/googletest': gtests will be built\n"}
+[14.736287] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b"-- Found gmock sources under '/usr/src/googletest': gmock will be built\n"}
+[14.764388] (-) TimerEvent: {}
+[14.864734] (-) TimerEvent: {}
+[14.965214] (-) TimerEvent: {}
+[14.979782] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") \n'}
+[14.982843] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[15.065378] (-) TimerEvent: {}
+[15.165735] (-) TimerEvent: {}
+[15.266050] (-) TimerEvent: {}
+[15.366457] (-) TimerEvent: {}
+[15.401031] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[15.402069] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[15.466641] (-) TimerEvent: {}
+[15.481457] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[15.481973] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[15.546006] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[15.546469] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[15.566793] (-) TimerEvent: {}
+[15.622752] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[15.624341] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[15.630337] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Using Python nosetests: /usr/bin/nosetests-2.7\n'}
+[15.666953] (-) TimerEvent: {}
+[15.767330] (-) TimerEvent: {}
+[15.867710] (-) TimerEvent: {}
+[15.968119] (-) TimerEvent: {}
+[16.068528] (-) TimerEvent: {}
+[16.092919] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- catkin 0.7.29\n'}
+[16.093292] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- BUILD_SHARED_LIBS is on\n'}
+[16.168737] (-) TimerEvent: {}
+[16.269875] (-) TimerEvent: {}
+[16.370747] (-) TimerEvent: {}
+[16.471107] (-) TimerEvent: {}
+[16.511393] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy\n'}
+[16.571291] (-) TimerEvent: {}
+[16.671762] (-) TimerEvent: {}
+[16.773213] (-) TimerEvent: {}
+[16.873662] (-) TimerEvent: {}
+[16.903948] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.937323] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Generating done\n'}
+[16.946965] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh\n'}
+[16.952360] (turtlebot3_description_reduced_mesh) CommandEnded: {'returncode': 0}
+[16.953426] (turtlebot3_description_reduced_mesh) JobProgress: {'identifier': 'turtlebot3_description_reduced_mesh', 'progress': 'build'}
+[16.954488] (turtlebot3_description_reduced_mesh) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh', '--', '-j2', '-l2'], 'cwd': '/home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh', 'env': OrderedDict([('HISTFILESIZE', '100000'), ('TMUX', '/tmp/tmux-1000/cloud92.2,2801,0'), ('MAIL', '/var/mail/ubuntu'), ('USER', 'ubuntu'), ('_system_version', '18.04'), ('SSH_CLIENT', '35.172.155.194 63540 22'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '4'), ('OLDPWD', '/home/ubuntu/environment/HelloWorld'), ('HOME', '/home/ubuntu'), ('PORT', '8080'), ('ISOUTPUTPANE', '0'), ('NVM_BIN', '/home/ubuntu/.nvm/versions/node/v8.17.0/bin'), ('NVM_NODEJS_ORG_MIRROR', 'https://nodejs.org/dist'), ('ROS_PYTHON_VERSION', '2'), ('C9_USER', 'vocstartsoft'), ('NVM_DIR', '/home/ubuntu/.nvm'), ('NVM_PATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/lib/node'), ('ROS_DISTRO', 'melodic'), ('HGUSER', 'vocstartsoft'), ('LOGNAME', 'ubuntu'), ('rvm_bin_path', '/usr/local/rvm/bin'), ('_', '/usr/local/bin/colcon'), ('RUBY_VERSION', 'ruby-2.4.1'), ('ROS_VERSION', '1'), ('C9_PORT', '8080'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('IRBRC', '/usr/local/rvm/rubies/ruby-2.4.1/.irbrc'), ('XDG_SESSION_ID', '5'), ('TERM', 'screen'), ('PATH', '/opt/ros/melodic/bin:/home/ubuntu/.nvm/versions/node/v8.17.0/bin:/usr/local/rvm/gems/ruby-2.4.1/bin:/usr/local/rvm/gems/ruby-2.4.1@global/bin:/usr/local/rvm/rubies/ruby-2.4.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/rvm/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin'), ('NVM_IOJS_ORG_MIRROR', 'https://iojs.org/dist'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MY_RUBY_HOME', '/usr/local/rvm/rubies/ruby-2.4.1'), ('LANG', 'C.UTF-8'), ('HISTSIZE', '100000'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('C9_HOSTNAME', '54.236.16.135'), ('NODE_PATH', '/home/ubuntu/.c9/node_modules'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('rvm_prefix', '/usr/local'), ('PROMPT_COMMAND', 'history -a;'), ('_system_type', 'Linux'), ('GEM_HOME', '/usr/local/rvm/gems/ruby-2.4.1'), ('C9_PID', 'c885df71b2374db4bf35e7e780cf14c6'), ('rvm_version', '1.29.3 (1.29.3)'), ('_system_arch', 'x86_64'), ('C9_PROJECT', 'lab_challenge_1'), ('PWD', '/home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh'), ('GEM_PATH', '/usr/local/rvm/gems/ruby-2.4.1:/usr/local/rvm/gems/ruby-2.4.1@global'), ('SSH_CONNECTION', '35.172.155.194 63540 172.31.62.39 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('IP', '127.0.0.1'), ('_system_name', 'Ubuntu'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('COLCON', '1'), ('rvm_path', '/usr/local/rvm'), ('TMUX_PANE', '%0'), ('MANPATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/share/man:/usr/local/rvm/rubies/ruby-2.4.1/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man:/usr/local/rvm/man'), ('EDITOR', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/melodic')]), 'shell': False}
+[16.973846] (-) TimerEvent: {}
+[17.006358] (turtlebot3_description_reduced_mesh) CommandEnded: {'returncode': 0}
+[17.074122] (-) TimerEvent: {}
+[17.087977] (turtlebot3_description_reduced_mesh) JobProgress: {'identifier': 'turtlebot3_description_reduced_mesh', 'progress': "build target 'tests'"}
+[17.088195] (turtlebot3_description_reduced_mesh) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh', '--target', 'tests', '--', '-j2', '-l2'], 'cwd': '/home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh', 'env': OrderedDict([('HISTFILESIZE', '100000'), ('TMUX', '/tmp/tmux-1000/cloud92.2,2801,0'), ('MAIL', '/var/mail/ubuntu'), ('USER', 'ubuntu'), ('_system_version', '18.04'), ('SSH_CLIENT', '35.172.155.194 63540 22'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '4'), ('OLDPWD', '/home/ubuntu/environment/HelloWorld'), ('HOME', '/home/ubuntu'), ('PORT', '8080'), ('ISOUTPUTPANE', '0'), ('NVM_BIN', '/home/ubuntu/.nvm/versions/node/v8.17.0/bin'), ('NVM_NODEJS_ORG_MIRROR', 'https://nodejs.org/dist'), ('ROS_PYTHON_VERSION', '2'), ('C9_USER', 'vocstartsoft'), ('NVM_DIR', '/home/ubuntu/.nvm'), ('NVM_PATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/lib/node'), ('ROS_DISTRO', 'melodic'), ('HGUSER', 'vocstartsoft'), ('LOGNAME', 'ubuntu'), ('rvm_bin_path', '/usr/local/rvm/bin'), ('_', '/usr/local/bin/colcon'), ('RUBY_VERSION', 'ruby-2.4.1'), ('ROS_VERSION', '1'), ('C9_PORT', '8080'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('IRBRC', '/usr/local/rvm/rubies/ruby-2.4.1/.irbrc'), ('XDG_SESSION_ID', '5'), ('TERM', 'screen'), ('PATH', '/opt/ros/melodic/bin:/home/ubuntu/.nvm/versions/node/v8.17.0/bin:/usr/local/rvm/gems/ruby-2.4.1/bin:/usr/local/rvm/gems/ruby-2.4.1@global/bin:/usr/local/rvm/rubies/ruby-2.4.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/rvm/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin'), ('NVM_IOJS_ORG_MIRROR', 'https://iojs.org/dist'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MY_RUBY_HOME', '/usr/local/rvm/rubies/ruby-2.4.1'), ('LANG', 'C.UTF-8'), ('HISTSIZE', '100000'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('C9_HOSTNAME', '54.236.16.135'), ('NODE_PATH', '/home/ubuntu/.c9/node_modules'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('rvm_prefix', '/usr/local'), ('PROMPT_COMMAND', 'history -a;'), ('_system_type', 'Linux'), ('GEM_HOME', '/usr/local/rvm/gems/ruby-2.4.1'), ('C9_PID', 'c885df71b2374db4bf35e7e780cf14c6'), ('rvm_version', '1.29.3 (1.29.3)'), ('_system_arch', 'x86_64'), ('C9_PROJECT', 'lab_challenge_1'), ('PWD', '/home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh'), ('GEM_PATH', '/usr/local/rvm/gems/ruby-2.4.1:/usr/local/rvm/gems/ruby-2.4.1@global'), ('SSH_CONNECTION', '35.172.155.194 63540 172.31.62.39 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('IP', '127.0.0.1'), ('_system_name', 'Ubuntu'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('COLCON', '1'), ('rvm_path', '/usr/local/rvm'), ('TMUX_PANE', '%0'), ('MANPATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/share/man:/usr/local/rvm/rubies/ruby-2.4.1/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man:/usr/local/rvm/man'), ('EDITOR', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/melodic')]), 'shell': False}
+[17.156068] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tests\x1b[0m\n'}
+[17.167500] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'Built target tests\n'}
+[17.174241] (-) TimerEvent: {}
+[17.180309] (turtlebot3_description_reduced_mesh) CommandEnded: {'returncode': 0}
+[17.260441] (turtlebot3_description_reduced_mesh) JobProgress: {'identifier': 'turtlebot3_description_reduced_mesh', 'progress': 'install'}
+[17.271415] (turtlebot3_description_reduced_mesh) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh', '--target', 'install', '--', '-j2', '-l2'], 'cwd': '/home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh', 'env': OrderedDict([('HISTFILESIZE', '100000'), ('TMUX', '/tmp/tmux-1000/cloud92.2,2801,0'), ('MAIL', '/var/mail/ubuntu'), ('USER', 'ubuntu'), ('_system_version', '18.04'), ('SSH_CLIENT', '35.172.155.194 63540 22'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '4'), ('OLDPWD', '/home/ubuntu/environment/HelloWorld'), ('HOME', '/home/ubuntu'), ('PORT', '8080'), ('ISOUTPUTPANE', '0'), ('NVM_BIN', '/home/ubuntu/.nvm/versions/node/v8.17.0/bin'), ('NVM_NODEJS_ORG_MIRROR', 'https://nodejs.org/dist'), ('ROS_PYTHON_VERSION', '2'), ('C9_USER', 'vocstartsoft'), ('NVM_DIR', '/home/ubuntu/.nvm'), ('NVM_PATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/lib/node'), ('ROS_DISTRO', 'melodic'), ('HGUSER', 'vocstartsoft'), ('LOGNAME', 'ubuntu'), ('rvm_bin_path', '/usr/local/rvm/bin'), ('_', '/usr/local/bin/colcon'), ('RUBY_VERSION', 'ruby-2.4.1'), ('ROS_VERSION', '1'), ('C9_PORT', '8080'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('IRBRC', '/usr/local/rvm/rubies/ruby-2.4.1/.irbrc'), ('XDG_SESSION_ID', '5'), ('TERM', 'screen'), ('PATH', '/opt/ros/melodic/bin:/home/ubuntu/.nvm/versions/node/v8.17.0/bin:/usr/local/rvm/gems/ruby-2.4.1/bin:/usr/local/rvm/gems/ruby-2.4.1@global/bin:/usr/local/rvm/rubies/ruby-2.4.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/rvm/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin'), ('NVM_IOJS_ORG_MIRROR', 'https://iojs.org/dist'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MY_RUBY_HOME', '/usr/local/rvm/rubies/ruby-2.4.1'), ('LANG', 'C.UTF-8'), ('HISTSIZE', '100000'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('C9_HOSTNAME', '54.236.16.135'), ('NODE_PATH', '/home/ubuntu/.c9/node_modules'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('rvm_prefix', '/usr/local'), ('PROMPT_COMMAND', 'history -a;'), ('_system_type', 'Linux'), ('GEM_HOME', '/usr/local/rvm/gems/ruby-2.4.1'), ('C9_PID', 'c885df71b2374db4bf35e7e780cf14c6'), ('rvm_version', '1.29.3 (1.29.3)'), ('_system_arch', 'x86_64'), ('C9_PROJECT', 'lab_challenge_1'), ('PWD', '/home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh'), ('GEM_PATH', '/usr/local/rvm/gems/ruby-2.4.1:/usr/local/rvm/gems/ruby-2.4.1@global'), ('SSH_CONNECTION', '35.172.155.194 63540 172.31.62.39 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('IP', '127.0.0.1'), ('_system_name', 'Ubuntu'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('COLCON', '1'), ('rvm_path', '/usr/local/rvm'), ('TMUX_PANE', '%0'), ('MANPATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/share/man:/usr/local/rvm/rubies/ruby-2.4.1/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man:/usr/local/rvm/man'), ('EDITOR', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/melodic')]), 'shell': False}
+[17.274284] (-) TimerEvent: {}
+[17.331966] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[17.341626] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.341964] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/lib/pkgconfig/turtlebot3_description_reduced_mesh.pc\n'}
+[17.342389] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/cmake/turtlebot3_description_reduced_meshConfig.cmake\n'}
+[17.342729] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/cmake/turtlebot3_description_reduced_meshConfig-version.cmake\n'}
+[17.343082] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/package.xml\n'}
+[17.343366] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/launch\n'}
+[17.343805] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/launch/spawn_turtlebot.launch\n'}
+[17.344038] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes\n'}
+[17.344244] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/sensors\n'}
+[17.344441] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/sensors/r200.jpg\n'}
+[17.344645] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/sensors/astra.dae\n'}
+[17.355346] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/sensors/astra.jpg\n'}
+[17.355708] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/sensors/r200.dae\n'}
+[17.356095] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/sensors/lds.stl\n'}
+[17.357219] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/wheels\n'}
+[17.357550] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/wheels/left_tire.stl\n'}
+[17.358948] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/wheels/right_tire.stl\n'}
+[17.360486] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/wheels/right_tire_reduced.stl\n'}
+[17.360786] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/wheels/left_tire_reduced.stl\n'}
+[17.361172] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases\n'}
+[17.361393] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases/waffle_pi_base_reduced.stl\n'}
+[17.364603] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases/burger_base.stl\n'}
+[17.370571] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases/waffle_pi_base.stl\n'}
+[17.374444] (-) TimerEvent: {}
+[17.380631] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases/waffle_base_for_open_manipulator.stl\n'}
+[17.393511] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases/waffle_pi_base_for_open_manipulator.stl\n'}
+[17.403072] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases/waffle_base.stl\n'}
+[17.422718] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases/burger_base_decimated.stl\n'}
+[17.423500] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf\n'}
+[17.423824] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_burger_for_autorace.gazebo.xacro\n'}
+[17.424243] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_waffle_pi.gazebo.xacro\n'}
+[17.424637] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_burger.urdf.xacro\n'}
+[17.425123] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_waffle_for_open_manipulator.urdf.xacro\n'}
+[17.425469] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/common_properties.xacro\n'}
+[17.425682] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_waffle_pi_for_open_manipulator.urdf.xacro\n'}
+[17.425882] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_burger_for_autorace.urdf.xacro\n'}
+[17.426106] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_waffle_pi.urdf.xacro\n'}
+[17.426314] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_waffle.urdf.xacro\n'}
+[17.426510] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_waffle.gazebo.xacro\n'}
+[17.426694] (turtlebot3_description_reduced_mesh) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_burger.gazebo.xacro\n'}
+[17.430061] (turtlebot3_description_reduced_mesh) CommandEnded: {'returncode': 0}
+[17.474730] (-) TimerEvent: {}
+[17.576350] (-) TimerEvent: {}
+[17.679567] (-) TimerEvent: {}
+[17.689062] (turtlebot3_description_reduced_mesh) JobEnded: {'identifier': 'turtlebot3_description_reduced_mesh', 'rc': 0}
+[17.707524] (hello_world_robot) JobStarted: {'identifier': 'hello_world_robot'}
+[17.715676] (hello_world_robot) JobProgress: {'identifier': 'hello_world_robot', 'progress': 'cmake'}
+[17.716115] (hello_world_robot) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/environment/HelloWorld/robot_ws/src/hello_world_robot', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot'], 'cwd': '/home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot', 'env': OrderedDict([('HISTFILESIZE', '100000'), ('TMUX', '/tmp/tmux-1000/cloud92.2,2801,0'), ('MAIL', '/var/mail/ubuntu'), ('USER', 'ubuntu'), ('_system_version', '18.04'), ('SSH_CLIENT', '35.172.155.194 63540 22'), ('ROS_PACKAGE_PATH', '/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '4'), ('OLDPWD', '/home/ubuntu/environment/HelloWorld'), ('HOME', '/home/ubuntu'), ('PORT', '8080'), ('ISOUTPUTPANE', '0'), ('NVM_BIN', '/home/ubuntu/.nvm/versions/node/v8.17.0/bin'), ('NVM_NODEJS_ORG_MIRROR', 'https://nodejs.org/dist'), ('ROS_PYTHON_VERSION', '2'), ('C9_USER', 'vocstartsoft'), ('NVM_DIR', '/home/ubuntu/.nvm'), ('NVM_PATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/lib/node'), ('ROS_DISTRO', 'melodic'), ('HGUSER', 'vocstartsoft'), ('LOGNAME', 'ubuntu'), ('rvm_bin_path', '/usr/local/rvm/bin'), ('_', '/usr/local/bin/colcon'), ('RUBY_VERSION', 'ruby-2.4.1'), ('ROS_VERSION', '1'), ('C9_PORT', '8080'), ('PKG_CONFIG_PATH', '/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('IRBRC', '/usr/local/rvm/rubies/ruby-2.4.1/.irbrc'), ('XDG_SESSION_ID', '5'), ('TERM', 'screen'), ('PATH', '/opt/ros/melodic/bin:/home/ubuntu/.nvm/versions/node/v8.17.0/bin:/usr/local/rvm/gems/ruby-2.4.1/bin:/usr/local/rvm/gems/ruby-2.4.1@global/bin:/usr/local/rvm/rubies/ruby-2.4.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/rvm/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin'), ('NVM_IOJS_ORG_MIRROR', 'https://iojs.org/dist'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MY_RUBY_HOME', '/usr/local/rvm/rubies/ruby-2.4.1'), ('LANG', 'C.UTF-8'), ('HISTSIZE', '100000'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('C9_HOSTNAME', '54.236.16.135'), ('NODE_PATH', '/home/ubuntu/.c9/node_modules'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('rvm_prefix', '/usr/local'), ('PROMPT_COMMAND', 'history -a;'), ('_system_type', 'Linux'), ('GEM_HOME', '/usr/local/rvm/gems/ruby-2.4.1'), ('C9_PID', 'c885df71b2374db4bf35e7e780cf14c6'), ('rvm_version', '1.29.3 (1.29.3)'), ('_system_arch', 'x86_64'), ('C9_PROJECT', 'lab_challenge_1'), ('PWD', '/home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot'), ('GEM_PATH', '/usr/local/rvm/gems/ruby-2.4.1:/usr/local/rvm/gems/ruby-2.4.1@global'), ('SSH_CONNECTION', '35.172.155.194 63540 172.31.62.39 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('IP', '127.0.0.1'), ('_system_name', 'Ubuntu'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('COLCON', '1'), ('rvm_path', '/usr/local/rvm'), ('TMUX_PANE', '%0'), ('MANPATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/share/man:/usr/local/rvm/rubies/ruby-2.4.1/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man:/usr/local/rvm/man'), ('EDITOR', ''), ('CMAKE_PREFIX_PATH', '/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh:/opt/ros/melodic')]), 'shell': False}
+[17.779848] (-) TimerEvent: {}
+[17.792343] (hello_world_robot) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[17.862032] (hello_world_robot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[17.867903] (hello_world_robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[17.879997] (-) TimerEvent: {}
+[17.943344] (hello_world_robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[17.944181] (hello_world_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[17.980178] (-) TimerEvent: {}
+[18.019117] (hello_world_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[18.030392] (hello_world_robot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[18.080378] (-) TimerEvent: {}
+[18.181099] (-) TimerEvent: {}
+[18.258047] (hello_world_robot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[18.262000] (hello_world_robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[18.281253] (-) TimerEvent: {}
+[18.348042] (hello_world_robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[18.349016] (hello_world_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[18.381424] (-) TimerEvent: {}
+[18.437579] (hello_world_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[18.448303] (hello_world_robot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[18.481607] (-) TimerEvent: {}
+[18.582313] (-) TimerEvent: {}
+[18.683657] (-) TimerEvent: {}
+[18.784405] (-) TimerEvent: {}
+[18.845854] (hello_world_robot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[18.848359] (hello_world_robot) StdoutLine: {'line': b'-- Using CATKIN_DEVEL_PREFIX: /home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot/devel\n'}
+[18.848749] (hello_world_robot) StdoutLine: {'line': b'-- Using CMAKE_PREFIX_PATH: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh;/opt/ros/melodic\n'}
+[18.849120] (hello_world_robot) StdoutLine: {'line': b'-- This workspace overlays: /home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh;/opt/ros/melodic\n'}
+[18.865448] (hello_world_robot) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") \n'}
+[18.865814] (hello_world_robot) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python2\n'}
+[18.866099] (hello_world_robot) StdoutLine: {'line': b'-- Using Debian Python package layout\n'}
+[18.866461] (hello_world_robot) StdoutLine: {'line': b'-- Using empy: /usr/bin/empy\n'}
+[18.884552] (-) TimerEvent: {}
+[18.985232] (-) TimerEvent: {}
+[19.050381] (hello_world_robot) StdoutLine: {'line': b'-- Using CATKIN_ENABLE_TESTING: ON\n'}
+[19.050803] (hello_world_robot) StdoutLine: {'line': b'-- Call enable_testing()\n'}
+[19.052993] (hello_world_robot) StdoutLine: {'line': b'-- Using CATKIN_TEST_RESULTS_DIR: /home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot/test_results\n'}
+[19.073782] (hello_world_robot) StdoutLine: {'line': b"-- Found gtest sources under '/usr/src/googletest': gtests will be built\n"}
+[19.074079] (hello_world_robot) StdoutLine: {'line': b"-- Found gmock sources under '/usr/src/googletest': gmock will be built\n"}
+[19.085381] (-) TimerEvent: {}
+[19.090102] (hello_world_robot) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") \n'}
+[19.091498] (hello_world_robot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[19.171336] (hello_world_robot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[19.172024] (hello_world_robot) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[19.185546] (-) TimerEvent: {}
+[19.251343] (hello_world_robot) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[19.251756] (hello_world_robot) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[19.285727] (-) TimerEvent: {}
+[19.317140] (hello_world_robot) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[19.317455] (hello_world_robot) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[19.385935] (-) TimerEvent: {}
+[19.390145] (hello_world_robot) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[19.391763] (hello_world_robot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[19.397129] (hello_world_robot) StdoutLine: {'line': b'-- Using Python nosetests: /usr/bin/nosetests-2.7\n'}
+[19.445079] (hello_world_robot) StdoutLine: {'line': b'-- catkin 0.7.29\n'}
+[19.445463] (hello_world_robot) StdoutLine: {'line': b'-- BUILD_SHARED_LIBS is on\n'}
+[19.486090] (-) TimerEvent: {}
+[19.586701] (-) TimerEvent: {}
+[19.612754] (hello_world_robot) StdoutLine: {'line': b'-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy\n'}
+[19.686861] (-) TimerEvent: {}
+[19.787320] (-) TimerEvent: {}
+[19.888245] (-) TimerEvent: {}
+[19.988633] (-) TimerEvent: {}
+[20.088991] (-) TimerEvent: {}
+[20.189354] (-) TimerEvent: {}
+[20.289748] (-) TimerEvent: {}
+[20.390193] (-) TimerEvent: {}
+[20.490598] (-) TimerEvent: {}
+[20.590957] (-) TimerEvent: {}
+[20.691403] (-) TimerEvent: {}
+[20.791826] (-) TimerEvent: {}
+[20.892209] (-) TimerEvent: {}
+[20.992579] (-) TimerEvent: {}
+[21.092979] (-) TimerEvent: {}
+[21.193466] (-) TimerEvent: {}
+[21.293846] (-) TimerEvent: {}
+[21.394195] (-) TimerEvent: {}
+[21.494525] (-) TimerEvent: {}
+[21.594864] (-) TimerEvent: {}
+[21.695308] (-) TimerEvent: {}
+[21.795858] (-) TimerEvent: {}
+[21.896615] (-) TimerEvent: {}
+[21.997126] (-) TimerEvent: {}
+[22.016592] (hello_world_robot) StdoutLine: {'line': b'-- Configuring done\n'}
+[22.039897] (hello_world_robot) StdoutLine: {'line': b'-- Generating done\n'}
+[22.046207] (hello_world_robot) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot\n'}
+[22.051397] (hello_world_robot) CommandEnded: {'returncode': 0}
+[22.052482] (hello_world_robot) JobProgress: {'identifier': 'hello_world_robot', 'progress': 'build'}
+[22.052908] (hello_world_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot', '--', '-j2', '-l2'], 'cwd': '/home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot', 'env': OrderedDict([('HISTFILESIZE', '100000'), ('TMUX', '/tmp/tmux-1000/cloud92.2,2801,0'), ('MAIL', '/var/mail/ubuntu'), ('USER', 'ubuntu'), ('_system_version', '18.04'), ('SSH_CLIENT', '35.172.155.194 63540 22'), ('ROS_PACKAGE_PATH', '/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '4'), ('OLDPWD', '/home/ubuntu/environment/HelloWorld'), ('HOME', '/home/ubuntu'), ('PORT', '8080'), ('ISOUTPUTPANE', '0'), ('NVM_BIN', '/home/ubuntu/.nvm/versions/node/v8.17.0/bin'), ('NVM_NODEJS_ORG_MIRROR', 'https://nodejs.org/dist'), ('ROS_PYTHON_VERSION', '2'), ('C9_USER', 'vocstartsoft'), ('NVM_DIR', '/home/ubuntu/.nvm'), ('NVM_PATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/lib/node'), ('ROS_DISTRO', 'melodic'), ('HGUSER', 'vocstartsoft'), ('LOGNAME', 'ubuntu'), ('rvm_bin_path', '/usr/local/rvm/bin'), ('_', '/usr/local/bin/colcon'), ('RUBY_VERSION', 'ruby-2.4.1'), ('ROS_VERSION', '1'), ('C9_PORT', '8080'), ('PKG_CONFIG_PATH', '/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('IRBRC', '/usr/local/rvm/rubies/ruby-2.4.1/.irbrc'), ('XDG_SESSION_ID', '5'), ('TERM', 'screen'), ('PATH', '/opt/ros/melodic/bin:/home/ubuntu/.nvm/versions/node/v8.17.0/bin:/usr/local/rvm/gems/ruby-2.4.1/bin:/usr/local/rvm/gems/ruby-2.4.1@global/bin:/usr/local/rvm/rubies/ruby-2.4.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/rvm/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin'), ('NVM_IOJS_ORG_MIRROR', 'https://iojs.org/dist'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MY_RUBY_HOME', '/usr/local/rvm/rubies/ruby-2.4.1'), ('LANG', 'C.UTF-8'), ('HISTSIZE', '100000'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('C9_HOSTNAME', '54.236.16.135'), ('NODE_PATH', '/home/ubuntu/.c9/node_modules'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('rvm_prefix', '/usr/local'), ('PROMPT_COMMAND', 'history -a;'), ('_system_type', 'Linux'), ('GEM_HOME', '/usr/local/rvm/gems/ruby-2.4.1'), ('C9_PID', 'c885df71b2374db4bf35e7e780cf14c6'), ('rvm_version', '1.29.3 (1.29.3)'), ('_system_arch', 'x86_64'), ('C9_PROJECT', 'lab_challenge_1'), ('PWD', '/home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot'), ('GEM_PATH', '/usr/local/rvm/gems/ruby-2.4.1:/usr/local/rvm/gems/ruby-2.4.1@global'), ('SSH_CONNECTION', '35.172.155.194 63540 172.31.62.39 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('IP', '127.0.0.1'), ('_system_name', 'Ubuntu'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('COLCON', '1'), ('rvm_path', '/usr/local/rvm'), ('TMUX_PANE', '%0'), ('MANPATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/share/man:/usr/local/rvm/rubies/ruby-2.4.1/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man:/usr/local/rvm/man'), ('EDITOR', ''), ('CMAKE_PREFIX_PATH', '/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh:/opt/ros/melodic')]), 'shell': False}
+[22.097338] (-) TimerEvent: {}
+[22.103849] (hello_world_robot) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hello_world_robot_xacro_generated_to_devel_space_\x1b[0m\n'}
+[22.115428] (hello_world_robot) StdoutLine: {'line': b'Built target hello_world_robot_xacro_generated_to_devel_space_\n'}
+[22.127445] (hello_world_robot) CommandEnded: {'returncode': 0}
+[22.184834] (hello_world_robot) JobProgress: {'identifier': 'hello_world_robot', 'progress': "build target 'tests'"}
+[22.185127] (hello_world_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot', '--target', 'tests', '--', '-j2', '-l2'], 'cwd': '/home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot', 'env': OrderedDict([('HISTFILESIZE', '100000'), ('TMUX', '/tmp/tmux-1000/cloud92.2,2801,0'), ('MAIL', '/var/mail/ubuntu'), ('USER', 'ubuntu'), ('_system_version', '18.04'), ('SSH_CLIENT', '35.172.155.194 63540 22'), ('ROS_PACKAGE_PATH', '/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '4'), ('OLDPWD', '/home/ubuntu/environment/HelloWorld'), ('HOME', '/home/ubuntu'), ('PORT', '8080'), ('ISOUTPUTPANE', '0'), ('NVM_BIN', '/home/ubuntu/.nvm/versions/node/v8.17.0/bin'), ('NVM_NODEJS_ORG_MIRROR', 'https://nodejs.org/dist'), ('ROS_PYTHON_VERSION', '2'), ('C9_USER', 'vocstartsoft'), ('NVM_DIR', '/home/ubuntu/.nvm'), ('NVM_PATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/lib/node'), ('ROS_DISTRO', 'melodic'), ('HGUSER', 'vocstartsoft'), ('LOGNAME', 'ubuntu'), ('rvm_bin_path', '/usr/local/rvm/bin'), ('_', '/usr/local/bin/colcon'), ('RUBY_VERSION', 'ruby-2.4.1'), ('ROS_VERSION', '1'), ('C9_PORT', '8080'), ('PKG_CONFIG_PATH', '/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('IRBRC', '/usr/local/rvm/rubies/ruby-2.4.1/.irbrc'), ('XDG_SESSION_ID', '5'), ('TERM', 'screen'), ('PATH', '/opt/ros/melodic/bin:/home/ubuntu/.nvm/versions/node/v8.17.0/bin:/usr/local/rvm/gems/ruby-2.4.1/bin:/usr/local/rvm/gems/ruby-2.4.1@global/bin:/usr/local/rvm/rubies/ruby-2.4.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/rvm/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin'), ('NVM_IOJS_ORG_MIRROR', 'https://iojs.org/dist'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MY_RUBY_HOME', '/usr/local/rvm/rubies/ruby-2.4.1'), ('LANG', 'C.UTF-8'), ('HISTSIZE', '100000'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('C9_HOSTNAME', '54.236.16.135'), ('NODE_PATH', '/home/ubuntu/.c9/node_modules'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('rvm_prefix', '/usr/local'), ('PROMPT_COMMAND', 'history -a;'), ('_system_type', 'Linux'), ('GEM_HOME', '/usr/local/rvm/gems/ruby-2.4.1'), ('C9_PID', 'c885df71b2374db4bf35e7e780cf14c6'), ('rvm_version', '1.29.3 (1.29.3)'), ('_system_arch', 'x86_64'), ('C9_PROJECT', 'lab_challenge_1'), ('PWD', '/home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot'), ('GEM_PATH', '/usr/local/rvm/gems/ruby-2.4.1:/usr/local/rvm/gems/ruby-2.4.1@global'), ('SSH_CONNECTION', '35.172.155.194 63540 172.31.62.39 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('IP', '127.0.0.1'), ('_system_name', 'Ubuntu'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('COLCON', '1'), ('rvm_path', '/usr/local/rvm'), ('TMUX_PANE', '%0'), ('MANPATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/share/man:/usr/local/rvm/rubies/ruby-2.4.1/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man:/usr/local/rvm/man'), ('EDITOR', ''), ('CMAKE_PREFIX_PATH', '/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh:/opt/ros/melodic')]), 'shell': False}
+[22.197497] (-) TimerEvent: {}
+[22.245767] (hello_world_robot) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tests\x1b[0m\n'}
+[22.257065] (hello_world_robot) StdoutLine: {'line': b'Built target tests\n'}
+[22.268991] (hello_world_robot) CommandEnded: {'returncode': 0}
+[22.297795] (-) TimerEvent: {}
+[22.326053] (hello_world_robot) JobProgress: {'identifier': 'hello_world_robot', 'progress': 'install'}
+[22.326541] (hello_world_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot', '--target', 'install', '--', '-j2', '-l2'], 'cwd': '/home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot', 'env': OrderedDict([('HISTFILESIZE', '100000'), ('TMUX', '/tmp/tmux-1000/cloud92.2,2801,0'), ('MAIL', '/var/mail/ubuntu'), ('USER', 'ubuntu'), ('_system_version', '18.04'), ('SSH_CLIENT', '35.172.155.194 63540 22'), ('ROS_PACKAGE_PATH', '/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/share:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '4'), ('OLDPWD', '/home/ubuntu/environment/HelloWorld'), ('HOME', '/home/ubuntu'), ('PORT', '8080'), ('ISOUTPUTPANE', '0'), ('NVM_BIN', '/home/ubuntu/.nvm/versions/node/v8.17.0/bin'), ('NVM_NODEJS_ORG_MIRROR', 'https://nodejs.org/dist'), ('ROS_PYTHON_VERSION', '2'), ('C9_USER', 'vocstartsoft'), ('NVM_DIR', '/home/ubuntu/.nvm'), ('NVM_PATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/lib/node'), ('ROS_DISTRO', 'melodic'), ('HGUSER', 'vocstartsoft'), ('LOGNAME', 'ubuntu'), ('rvm_bin_path', '/usr/local/rvm/bin'), ('_', '/usr/local/bin/colcon'), ('RUBY_VERSION', 'ruby-2.4.1'), ('ROS_VERSION', '1'), ('C9_PORT', '8080'), ('PKG_CONFIG_PATH', '/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('IRBRC', '/usr/local/rvm/rubies/ruby-2.4.1/.irbrc'), ('XDG_SESSION_ID', '5'), ('TERM', 'screen'), ('PATH', '/opt/ros/melodic/bin:/home/ubuntu/.nvm/versions/node/v8.17.0/bin:/usr/local/rvm/gems/ruby-2.4.1/bin:/usr/local/rvm/gems/ruby-2.4.1@global/bin:/usr/local/rvm/rubies/ruby-2.4.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/rvm/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin'), ('NVM_IOJS_ORG_MIRROR', 'https://iojs.org/dist'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MY_RUBY_HOME', '/usr/local/rvm/rubies/ruby-2.4.1'), ('LANG', 'C.UTF-8'), ('HISTSIZE', '100000'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('C9_HOSTNAME', '54.236.16.135'), ('NODE_PATH', '/home/ubuntu/.c9/node_modules'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('rvm_prefix', '/usr/local'), ('PROMPT_COMMAND', 'history -a;'), ('_system_type', 'Linux'), ('GEM_HOME', '/usr/local/rvm/gems/ruby-2.4.1'), ('C9_PID', 'c885df71b2374db4bf35e7e780cf14c6'), ('rvm_version', '1.29.3 (1.29.3)'), ('_system_arch', 'x86_64'), ('C9_PROJECT', 'lab_challenge_1'), ('PWD', '/home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot'), ('GEM_PATH', '/usr/local/rvm/gems/ruby-2.4.1:/usr/local/rvm/gems/ruby-2.4.1@global'), ('SSH_CONNECTION', '35.172.155.194 63540 172.31.62.39 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('IP', '127.0.0.1'), ('_system_name', 'Ubuntu'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('COLCON', '1'), ('rvm_path', '/usr/local/rvm'), ('TMUX_PANE', '%0'), ('MANPATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/share/man:/usr/local/rvm/rubies/ruby-2.4.1/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man:/usr/local/rvm/man'), ('EDITOR', ''), ('CMAKE_PREFIX_PATH', '/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh:/opt/ros/melodic')]), 'shell': False}
+[22.386393] (hello_world_robot) StdoutLine: {'line': b'Built target hello_world_robot_xacro_generated_to_devel_space_\n'}
+[22.397869] (-) TimerEvent: {}
+[22.408131] (hello_world_robot) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[22.417795] (hello_world_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.419011] (hello_world_robot) StdoutLine: {'line': b'+ cd /home/ubuntu/environment/HelloWorld/robot_ws/src/hello_world_robot\n'}
+[22.419334] (hello_world_robot) StdoutLine: {'line': b'+ mkdir -p /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/lib/python2.7/dist-packages\n'}
+[22.420566] (hello_world_robot) StdoutLine: {'line': b'+ /usr/bin/env PYTHONPATH=/home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/lib/python2.7/dist-packages:/home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot /usr/bin/python2 /home/ubuntu/environment/HelloWorld/robot_ws/src/hello_world_robot/setup.py build --build-base /home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot install --root=/ --install-layout=deb --prefix=/home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot --install-scripts=/home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/bin\n'}
+[22.468147] (hello_world_robot) StdoutLine: {'line': b'running build\n'}
+[22.468548] (hello_world_robot) StdoutLine: {'line': b'running build_py\n'}
+[22.469597] (hello_world_robot) StdoutLine: {'line': b'creating /home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot/lib.linux-x86_64-2.7\n'}
+[22.470015] (hello_world_robot) StdoutLine: {'line': b'creating /home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot/lib.linux-x86_64-2.7/hello_world_robot\n'}
+[22.470283] (hello_world_robot) StdoutLine: {'line': b'copying src/hello_world_robot/__init__.py -> /home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot/lib.linux-x86_64-2.7/hello_world_robot\n'}
+[22.470572] (hello_world_robot) StdoutLine: {'line': b'running install\n'}
+[22.470938] (hello_world_robot) StdoutLine: {'line': b'running install_lib\n'}
+[22.471782] (hello_world_robot) StdoutLine: {'line': b'creating /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/lib/python2.7/dist-packages/hello_world_robot\n'}
+[22.472119] (hello_world_robot) StdoutLine: {'line': b'copying /home/ubuntu/environment/HelloWorld/robot_ws/build/hello_world_robot/lib.linux-x86_64-2.7/hello_world_robot/__init__.py -> /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/lib/python2.7/dist-packages/hello_world_robot\n'}
+[22.473729] (hello_world_robot) StdoutLine: {'line': b'byte-compiling /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/lib/python2.7/dist-packages/hello_world_robot/__init__.py to __init__.pyc\n'}
+[22.475772] (hello_world_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[22.476669] (hello_world_robot) StdoutLine: {'line': b'Writing /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/lib/python2.7/dist-packages/hello_world_robot-1.4.0.egg-info\n'}
+[22.480729] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/lib/pkgconfig/hello_world_robot.pc\n'}
+[22.481155] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/share/hello_world_robot/cmake/hello_world_robotConfig.cmake\n'}
+[22.481481] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/share/hello_world_robot/cmake/hello_world_robotConfig-version.cmake\n'}
+[22.481783] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/share/hello_world_robot/package.xml\n'}
+[22.482085] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/lib/hello_world_robot/rotate\n'}
+[22.482487] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/share/hello_world_robot/launch\n'}
+[22.482854] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/share/hello_world_robot/launch/deploy_rotate.launch\n'}
+[22.483138] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/share/hello_world_robot/launch/rotate.launch\n'}
+[22.483441] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/share/deploymentScripts\n'}
+[22.483647] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/share/deploymentScripts/post_launch_file.sh\n'}
+[22.483851] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/share/deploymentScripts/pre_launch_file.sh\n'}
+[22.484054] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/HelloWorld/robot_ws/install/hello_world_robot/share/hello_world_robot/rviz/turtlebot3_model.rviz\n'}
+[22.487639] (hello_world_robot) CommandEnded: {'returncode': 0}
+[22.498125] (-) TimerEvent: {}
+[22.601461] (-) TimerEvent: {}
+[22.675098] (hello_world_robot) JobEnded: {'identifier': 'hello_world_robot', 'rc': 0}
+[22.677522] (-) EventReactorShutdown: {}
